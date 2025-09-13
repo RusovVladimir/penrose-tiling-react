@@ -33,7 +33,7 @@ jobs:
     - name: Build
       run: |
         npm ci
-        npm run build
+        npx parcel build index.html -o index.html --public-url /penrose-tiling-react
 
     - name: Setup Pages
       uses: actions/configure-pages@v5
