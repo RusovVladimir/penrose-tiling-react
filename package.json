@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -o index.html"
+    "build": "parcel build index.html -o index.html --public-url /"
   },
   "dependencies": {
     "parcel-bundler": "1.6.1",
